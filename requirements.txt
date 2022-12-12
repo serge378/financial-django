@@ -27,10 +27,10 @@ entrypoints==0.4
 et-xmlfile==1.1.0
 executing==0.8.3
 filelock==3.6.0
-flake8 @ file:///opt/conda/conda-bld/flake8_1648129545443/work
+# flake8 @ file:///opt/conda/conda-bld/flake8_1648129545443/work
 fonttools==4.34.4
 idna==3.4
-importlib-metadata @ file:///C:/ci/importlib-metadata_1648562621412/work
+# importlib-metadata @ file:///C:/ci/importlib-metadata_1648562621412/work
 ipykernel==6.9.2
 ipython==8.1.1
 itypes==1.2.0
@@ -40,7 +40,7 @@ jupyter-client==7.1.2
 jupyter-core==4.9.2
 MarkupSafe==2.1.1
 matplotlib-inline==0.1.3
-mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
+# mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
 mypy-extensions==0.4.3
 nest-asyncio==1.5.4
 numpy==1.23.5
@@ -56,9 +56,9 @@ prompt-toolkit==3.0.28
 psutil==5.9.0
 psycopg2-binary==2.9.5
 pure-eval==0.2.2
-pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
+# pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1636635402688/work
 pycparser==2.21
-pyflakes @ file:///tmp/build/80754af9/pyflakes_1636644436481/work
+# pyflakes @ file:///tmp/build/80754af9/pyflakes_1636644436481/work
 Pygments==2.11.2
 PyJWT==2.6.0
 python-dateutil==2.8.2
@@ -83,4 +83,4 @@ urllib3==1.26.13
 virtualenv==20.13.4
 wcwidth==0.2.5
 wincertstore==0.2
-zipp @ file:///C:/ci/zipp_1652273994994/work
+# zipp @ file:///C:/ci/zipp_1652273994994/work
