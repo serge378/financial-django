@@ -79,4 +79,4 @@ urllib3==1.26.13
 # virtualenv==20.13.4
 wcwidth==0.2.5
 wincertstore==0.2
-zipp @ file:///C:/ci/zipp_1652273994994/work
+# zipp @ file:///C:/ci/zipp_1652273994994/work
