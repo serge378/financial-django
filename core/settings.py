@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-f3)2@t@2!q*i$$s2i7!6tr=zmhf2n!p@!ak_19)hvfdzpv#$z)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".vercel.app", ".now.sh"]
 
 
 # Application definition
@@ -97,7 +97,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = (
     "http://localhost:3000",
-    "https://financial-performance-ci.vercel.app/",
+    "https://financial-performance-ci.vercel.app",
 )
 
 TEMPLATES = [
@@ -124,8 +124,12 @@ WSGI_APPLICATION = "core.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "_ERDX8-c5pv78_w",
+        "HOST": "db.ccbkkrdmlvkikxcwpwpd.supabase.co",
+        "PORT": "5432",
     }
 }
 
@@ -168,8 +172,8 @@ STATIC_URL = "static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
-# MEDIA_URL = "/media/"
-# MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
