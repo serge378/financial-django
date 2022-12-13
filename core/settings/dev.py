@@ -19,3 +19,4 @@ ALLOWED_HOSTS = []
 
 CORS_ORIGIN_WHITELIST = ("http://localhost:3000",)
 MEDIA_ROOT = os.path.join(BASE_DIR, "/media/")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
