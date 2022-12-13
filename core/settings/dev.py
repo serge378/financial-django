@@ -1,3 +1,8 @@
+import os
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
@@ -13,3 +18,4 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CORS_ORIGIN_WHITELIST = ("http://localhost:3000",)
+MEDIA_ROOT = os.path.join(BASE_DIR, "/media/")
