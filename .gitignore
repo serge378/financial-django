@@ -6,6 +6,8 @@ __pycache__
 db.sqlite3
 media
 mydatabase
+videos
+videos-formations
 
 # Backup files # 
 *.bak 
