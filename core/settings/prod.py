@@ -8,7 +8,7 @@ env = environ.Env()
 environ.Env.read_env()
 
 DEBUG = False
-ALLOWED_HOSTS = [".vercel.app"]
+ALLOWED_HOSTS = ["django-env.eba-5ztd3p3h.us-west-2.elasticbeanstalk.com"]
 
 
 DATABASES = {

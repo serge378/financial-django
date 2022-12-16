@@ -114,7 +114,4 @@ TEMPLATES = [
 WSGI_APPLICATION = "core.wsgi.application"
 
 
-STATIC_URL = "/static/"
 
-
-MEDIA_URL = "/media/"
